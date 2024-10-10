@@ -16,7 +16,7 @@
     /* 角を丸くする */
     background-color: #f9f9f9;
     /* デフォルトの背景色を薄いグレーに */
-    width: 300px;
+    width: 250px;
     /* ボックスの幅を指定 */
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     /* 影を追加 */
@@ -26,7 +26,7 @@
     /* フレックスボックス */
     flex-direction: column;
     /* 縦方向に配置 */
-    width: 160%;
+    width: 100%;
     /* 全体の幅を100%に */
 }
 
@@ -38,7 +38,7 @@
     /* ボックス同士の間隔を指定 */
     flex-direction: column;
     /* 縦に並べる */
-    width: 40%;
+    width: 65%;
         /* 右ボックスの幅を48%に調整 */
 }
 
@@ -51,7 +51,7 @@
     /* 縦に並べる */
     justify-content: flex-end;
     /* 右に寄せる */
-    width: 40%;
+    width: 65%;
     /* 右ボックスの幅を48%に調整 */
     margin-left: auto;
 }
