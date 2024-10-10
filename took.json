@@ -1,0 +1,24 @@
+[
+    {
+        "position": "left",
+        "took": "あいうえおかきくけこさしすせそたちつてとはひふへほ"
+    },
+    {
+        "position": "right",
+        "took": "1行\n2行"
+    },
+    {
+        "position": "left",
+        "took": "1行\n2行\n3行\n4行"
+    }
+    ,
+    {
+        "position": "right",
+        "took": "1行"
+    }
+    ,
+    {
+        "position": "right",
+        "took": "1行"
+    }
+]

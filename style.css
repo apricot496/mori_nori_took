@@ -1,0 +1,92 @@
+#area {
+    display: flex;
+    flex-direction: column;
+    /* ボックスが上下に並ぶようにする */
+    align-items: flex-start;
+    /* 高さの基準を左ボックスに合わせる */
+}
+/* 各会社情報のブロックを囲むためのスタイル */
+.company-box {
+    border: 1px solid #000;
+    /* 黒い枠線 */
+    padding: 10px;
+    margin: 5pt 0;
+    /* 上下のマージンを5ptに設定 */
+    border-radius: 5px;
+    /* 角を丸くする */
+    background-color: #f9f9f9;
+    /* デフォルトの背景色を薄いグレーに */
+    width: 300px;
+    /* ボックスの幅を指定 */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    /* 影を追加 */
+    text-align: left;
+    /* テキストを左寄せにする */
+    display: flex;
+    /* フレックスボックス */
+    flex-direction: column;
+    /* 縦方向に配置 */
+    width: 160%;
+    /* 全体の幅を100%に */
+}
+
+.left-container {
+    display: flex;
+    justify-content: flex-start;
+    /* 左または右に寄せる */
+    margin-bottom: 5pt;
+    /* ボックス同士の間隔を指定 */
+    flex-direction: column;
+    /* 縦に並べる */
+    width: 40%;
+        /* 右ボックスの幅を48%に調整 */
+}
+
+.right-container {
+    display: flex;
+    /* 左または右に寄せる */
+    margin-bottom: 5pt;
+    /* ボックス同士の間隔を指定 */
+    flex-direction: column;
+    /* 縦に並べる */
+    justify-content: flex-end;
+    /* 右に寄せる */
+    width: 40%;
+    /* 右ボックスの幅を48%に調整 */
+    margin-left: auto;
+}
+
+/* 左ボックスの背景色 */
+.left-container .company-box {
+    background-color: #f9f9f9;
+    /* 左ボックスのデフォルト背景 */
+}
+
+/* 右ボックスの背景色 */
+.right-container .company-box {
+    background-color: #007bff;
+    /* 青色の背景 */
+    color: white;
+    /* 文字色を白に */
+}
+
+/* スタイルのリセット */
+body {
+    font-family: Arial, sans-serif;
+    /* フォント設定 */
+    max-width: 600px;
+    /* 最大幅を指定 */
+    margin: 0 auto;
+    /* 中央寄せ */
+    display: flex;
+    /* フレックスボックスにする */
+    flex-wrap: wrap;
+    /* 折り返しを有効にする */
+}
+
+/* clearfix */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
